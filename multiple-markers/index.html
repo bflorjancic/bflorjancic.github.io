@@ -12,7 +12,8 @@
     <a-scene embedded arjs>
 
 <a-marker preset="hiro">
-          <a-sphere radius=".5" material="opacity: 0.7;" color="red" position="0 1 0"></a-sphere>
+         <a-entity position="0 0 0" gltf-model="models/Watering can.glb" rotation="0 90 0" scale="1 1 1">
+        </a-entity>
       </a-marker>
         
       <a-marker preset="kanji">  
@@ -20,7 +21,7 @@
         </a-entity>
       </a-marker>  
       
-      <a-marker id="zb" type="pattern" url="markers/patt.zb">
+      <a-marker id="pattern-CreatedMarker.png" type="pattern" url="pattern-CreatedMarker.patt">
         <a-entity position="0 0 0" gltf-model="models/Sun.glb" rotation="0 90 0" scale="1 1 1">
         </a-entity>
       </a-marker>  
